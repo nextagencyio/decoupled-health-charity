@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Heart & Hope Health Foundation",
+          "path": "/homepage",
+          "heroTitle": "Every Heartbeat Matters",
+          "heroSubtitle": "Hope for a Healthier Tomorrow",
+          "heroDescription": {
+            "processed": "<p>We fund life-saving research, support families in crisis, and build healthier communities. Join us in the fight against heart disease, cancer, and chronic illness.</p>",
+            "summary": "We fund life-saving research, support families in crisis, and build healthier communities. Join us in the fight against heart disease, cancer, and chronic illness."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-lives",
+              "title": "",
+              "number": "50,000+",
+              "label": "Lives Impacted"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-research",
+              "title": "",
+              "number": "$12M",
+              "label": "Research Funded"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-volunteers",
+              "title": "",
+              "number": "3,200+",
+              "label": "Active Volunteers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-communities",
+              "title": "",
+              "number": "85",
+              "label": "Communities Served"
+            }
+          ],
+          "featuredCampaignsTitle": "Current Campaigns",
+          "ctaTitle": "Your Generosity Saves Lives",
+          "ctaDescription": {
+            "processed": "<p>Every dollar you give funds critical research and supports families facing health challenges. Make your impact today.</p>",
+            "summary": "Every dollar you give funds critical research and supports families facing health challenges. Make your impact today."
+          },
+          "ctaPrimary": "Donate Now",
+          "ctaSecondary": "Become a Volunteer"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-grant",
+          "title": "Foundation Receives $5M NIH Research Grant",
+          "path": "/news/foundation-receives-nih-grant",
+          "body": {
+            "processed": "<p>Heart & Hope Health Foundation has been awarded a prestigious $5 million grant from the National Institutes of Health to expand our cardiac regeneration research program. This grant will fund three new clinical trials and support 15 research fellowships over the next four years.</p><p>\"This recognition from the NIH validates the groundbreaking work our funded researchers are doing,\" said Foundation CEO Dr. Margaret Torres. \"We are one step closer to making heart disease a thing of the past.\"</p>",
+            "summary": "Heart & Hope Health Foundation has been awarded a prestigious $5 million grant from the National Institutes of Health to expand our cardiac regeneration research program. This grant will fund three ne"
+          },
+          "category": [
+            {
+              "id": "research",
+              "name": "research"
+            },
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Foundation Receives $5M NIH Research Grant",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-impact",
+          "title": "2025 Impact Report: A Record Year of Giving",
+          "path": "/news/annual-impact-report-2025",
+          "body": {
+            "processed": "<p>Our 2025 Annual Impact Report reveals a record-breaking year: over $12 million raised, 50,000 lives impacted, and 15 new research projects funded. Thanks to the generosity of our donors and the dedication of our 3,200 volunteers, we made significant strides in the fight against heart disease, cancer, and diabetes.</p><p>Key highlights include a 30% increase in community health screenings and the launch of our mobile health clinic serving rural communities.</p>",
+            "summary": "Our 2025 Annual Impact Report reveals a record-breaking year: over $12 million raised, 50,000 lives impacted, and 15 new research projects funded. Thanks to the generosity of our donors and the dedica"
+          },
+          "category": [
+            {
+              "id": "impact-stories",
+              "name": "impact-stories"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "2025 Annual Impact Report",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-volunteer",
+          "title": "Volunteer Spotlight: Maria Gonzalez's 10 Years of Service",
+          "path": "/news/volunteer-spotlight-maria-gonzalez",
+          "body": {
+            "processed": "<p>This month we celebrate Maria Gonzalez, who has volunteered with Heart & Hope for a decade. As a cardiac arrest survivor herself, Maria has dedicated her life to helping others navigate their health journeys. She has organized over 200 community health events and trained 50 volunteer health educators.</p><p>\"When I survived my heart attack, I made a promise to give back,\" Maria says. \"Every person I help reminds me why this work matters.\"</p>",
+            "summary": "This month we celebrate Maria Gonzalez, who has volunteered with Heart & Hope for a decade. As a cardiac arrest survivor herself, Maria has dedicated her life to helping others navigate their health j"
+          },
+          "category": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Volunteer Spotlight: Maria Gonzalez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

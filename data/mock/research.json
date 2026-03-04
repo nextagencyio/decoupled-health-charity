@@ -1,0 +1,153 @@
+{
+  "data": {
+    "nodeResearchProjects": {
+      "__typename": "NodeResearchProjectConnection",
+      "nodes": [
+        {
+          "__typename": "NodeResearchProject",
+          "id": "research-cardiac",
+          "title": "Regenerative Cardiac Tissue Therapy",
+          "path": "/research/regenerative-cardiac-therapy",
+          "body": {
+            "processed": "<p>Pioneering research into stem cell-based approaches to regenerate damaged heart tissue after myocardial infarction. This project has the potential to revolutionize treatment for heart attack survivors and reduce long-term heart failure rates.</p><h2>Research Approach</h2><ul><li>Developing novel stem cell delivery mechanisms</li><li>Testing bioengineered cardiac patches</li><li>Conducting Phase II clinical trials</li><li>Analyzing long-term patient outcomes</li></ul>",
+            "summary": "Pioneering research into stem cell-based approaches to regenerate damaged heart tissue after myocardial infarction. This project has the potential to revolutionize treatment for heart attack survivors"
+          },
+          "healthArea": [
+            {
+              "id": "cardiac-health",
+              "name": "cardiac-health"
+            }
+          ],
+          "leadResearcher": "Dr. Elena Rodriguez",
+          "institution": "Stanford Cardiovascular Institute",
+          "fundingAmount": "$2,400,000",
+          "startDate": {
+            "timestamp": 1736920800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+            "alt": "Regenerative Cardiac Tissue Therapy Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResearchProject",
+          "id": "research-immunotherapy",
+          "title": "Next-Generation Pediatric Immunotherapy",
+          "path": "/research/pediatric-immunotherapy",
+          "body": {
+            "processed": "<p>Developing safer, more effective immunotherapy treatments specifically designed for pediatric cancer patients. Current treatments designed for adults often cause severe side effects in children; this research aims to change that.</p><h2>Key Objectives</h2><ul><li>Engineer child-specific CAR-T cell therapies</li><li>Reduce treatment-related side effects by 60%</li><li>Expand clinical trial access for underserved populations</li><li>Develop predictive biomarkers for treatment response</li></ul>",
+            "summary": "Developing safer, more effective immunotherapy treatments specifically designed for pediatric cancer patients. Current treatments designed for adults often cause severe side effects in children; this "
+          },
+          "healthArea": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "leadResearcher": "Dr. James Chen",
+          "institution": "Children's National Medical Center",
+          "fundingAmount": "$1,800,000",
+          "startDate": {
+            "timestamp": 1740808800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "Pediatric Immunotherapy Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeResearchProject",
+          "id": "research-diabetes-prevention",
+          "title": "Genomic Approaches to Diabetes Prevention",
+          "path": "/research/diabetes-prevention-genomics",
+          "body": {
+            "processed": "<p>Using advanced genomic analysis to identify individuals at high risk for Type 2 diabetes before symptoms appear. This research combines genetic testing with lifestyle interventions to prevent diabetes onset.</p><h2>Research Components</h2><ul><li>Whole-genome sequencing of 10,000 participants</li><li>AI-powered risk prediction models</li><li>Personalized prevention programs based on genetic profiles</li><li>Community-based intervention trials</li></ul>",
+            "summary": "Using advanced genomic analysis to identify individuals at high risk for Type 2 diabetes before symptoms appear. This research combines genetic testing with lifestyle interventions to prevent diabetes"
+          },
+          "healthArea": [
+            {
+              "id": "diabetes",
+              "name": "diabetes"
+            }
+          ],
+          "leadResearcher": "Dr. Amara Okafor",
+          "institution": "Johns Hopkins Bloomberg School of Public Health",
+          "fundingAmount": "$1,500,000",
+          "startDate": {
+            "timestamp": 1748754000
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Genomic Diabetes Prevention Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

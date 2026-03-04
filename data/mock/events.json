@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Hope Gala 2026",
+          "path": "/events/hope-gala-2026",
+          "body": {
+            "processed": "<p>Join us for an unforgettable evening of inspiration, entertainment, and generosity. The Hope Gala is our premier fundraising event, bringing together community leaders, donors, and health advocates for an elegant dinner and auction.</p><h2>Evening Schedule</h2><ul><li>6:00 PM - Cocktail Reception & Silent Auction</li><li>7:00 PM - Dinner & Program</li><li>8:30 PM - Live Auction</li><li>9:30 PM - Dancing & Dessert</li></ul>",
+            "summary": "Join us for an unforgettable evening of inspiration, entertainment, and generosity. The Hope Gala is our premier fundraising event, bringing together community leaders, donors, and health advocates fo"
+          },
+          "eventDate": {
+            "timestamp": 1792278000
+          },
+          "endDate": {
+            "timestamp": 1792296000
+          },
+          "location": "Grand Ballroom, Riverside Convention Center",
+          "eventType": [
+            {
+              "id": "gala",
+              "name": "gala"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/gala",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Annual Hope Gala 2026",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-walkrun",
+          "title": "Heart & Hope 5K Walk/Run",
+          "path": "/events/heart-walk-2026",
+          "body": {
+            "processed": "<p>Lace up your shoes and join thousands of walkers and runners for our annual 5K event. All proceeds support cardiac research and community health programs. Families, teams, and individuals of all fitness levels are welcome.</p><h2>Event Details</h2><ul><li>7:00 AM - Registration & Warm-Up</li><li>8:00 AM - 5K Start</li><li>9:30 AM - Kids Fun Run</li><li>10:00 AM - Awards & Health Fair</li></ul>",
+            "summary": "Lace up your shoes and join thousands of walkers and runners for our annual 5K event. All proceeds support cardiac research and community health programs. Families, teams, and individuals of all fitne"
+          },
+          "eventDate": {
+            "timestamp": 1778932800
+          },
+          "endDate": {
+            "timestamp": 1778950800
+          },
+          "location": "Riverside Park, Main Trail",
+          "eventType": [
+            {
+              "id": "walk-run",
+              "name": "walk-run"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/5k",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80",
+            "alt": "Heart & Hope 5K Walk/Run",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-screening",
+          "title": "Free Community Health Screening",
+          "path": "/events/free-health-screening",
+          "body": {
+            "processed": "<p>Get a comprehensive health check at no cost. Our volunteer medical professionals offer blood pressure checks, cholesterol screenings, diabetes risk assessments, and more. No insurance or appointment needed.</p><h2>Available Screenings</h2><ul><li>Blood pressure & heart rate</li><li>Blood glucose & cholesterol</li><li>BMI & body composition</li><li>Mental health wellness check</li></ul>",
+            "summary": "Get a comprehensive health check at no cost. Our volunteer medical professionals offer blood pressure checks, cholesterol screenings, diabetes risk assessments, and more. No insurance or appointment n"
+          },
+          "eventDate": {
+            "timestamp": 1776002400
+          },
+          "endDate": {
+            "timestamp": 1776024000
+          },
+          "location": "Eastside Community Center, 450 Oak Street",
+          "eventType": [
+            {
+              "id": "community-health",
+              "name": "community-health"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/screening",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80",
+            "alt": "Free Community Health Screening",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

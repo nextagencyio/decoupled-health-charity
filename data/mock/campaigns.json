@@ -1,0 +1,221 @@
+{
+  "data": {
+    "nodeCampaigns": {
+      "__typename": "NodeCampaignConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCampaign",
+          "id": "campaign-heart",
+          "title": "Hearts for Hope",
+          "path": "/campaigns/hearts-for-hope",
+          "body": {
+            "processed": "<p>Our flagship campaign to fund cutting-edge cardiac research and provide life-saving heart screenings to underserved communities. Every donation brings us closer to a world where no one dies from preventable heart disease.</p><h2>Campaign Goals</h2><ul><li>Fund 10 new cardiac research grants</li><li>Provide 5,000 free heart screenings</li><li>Train 200 community health workers</li><li>Distribute 10,000 AED devices</li></ul>",
+            "summary": "Our flagship campaign to fund cutting-edge cardiac research and provide life-saving heart screenings to underserved communities. Every donation brings us closer to a world where no one dies from preve"
+          },
+          "healthArea": [
+            {
+              "id": "cardiac-health",
+              "name": "cardiac-health"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "fundraising",
+              "name": "fundraising"
+            }
+          ],
+          "goalAmount": "$2,500,000",
+          "raisedAmount": "$1,875,000",
+          "deadline": {
+            "timestamp": 1798783140
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Hearts for Hope Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCampaign",
+          "id": "campaign-childhood",
+          "title": "Childhood Cancer Warriors",
+          "path": "/campaigns/childhood-cancer-warriors",
+          "body": {
+            "processed": "<p>Supporting brave young patients and their families through treatment, research, and recovery. This campaign funds pediatric oncology research and provides financial assistance to families facing childhood cancer.</p><h2>How We Help</h2><ul><li>Fund pediatric cancer clinical trials</li><li>Provide family housing near treatment centers</li><li>Support child life specialists</li><li>Cover medication costs for uninsured families</li></ul>",
+            "summary": "Supporting brave young patients and their families through treatment, research, and recovery. This campaign funds pediatric oncology research and provides financial assistance to families facing child"
+          },
+          "healthArea": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "fundraising",
+              "name": "fundraising"
+            }
+          ],
+          "goalAmount": "$1,800,000",
+          "raisedAmount": "$920,000",
+          "deadline": {
+            "timestamp": 1790830740
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+            "alt": "Childhood Cancer Warriors Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCampaign",
+          "id": "campaign-mental",
+          "title": "Mind Matters Initiative",
+          "path": "/campaigns/mind-matters",
+          "body": {
+            "processed": "<p>Breaking the stigma around mental health and expanding access to care. This awareness campaign works to normalize mental health conversations and connect communities with vital resources.</p><h2>Initiative Components</h2><ul><li>Launch community mental health workshops</li><li>Train 500 mental health first aiders</li><li>Create a 24/7 crisis text line</li><li>Develop school-based wellness programs</li></ul>",
+            "summary": "Breaking the stigma around mental health and expanding access to care. This awareness campaign works to normalize mental health conversations and connect communities with vital resources.Initiative Co"
+          },
+          "healthArea": [
+            {
+              "id": "mental-health",
+              "name": "mental-health"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "awareness",
+              "name": "awareness"
+            }
+          ],
+          "goalAmount": "$750,000",
+          "raisedAmount": "$510,000",
+          "deadline": {
+            "timestamp": 1782881940
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+            "alt": "Mind Matters Initiative",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCampaign",
+          "id": "campaign-diabetes",
+          "title": "Step Up for Diabetes",
+          "path": "/campaigns/step-up-for-diabetes",
+          "body": {
+            "processed": "<p>A community wellness campaign combining fitness challenges with diabetes education and prevention. Participants walk, run, and move to raise funds for diabetes research while learning about healthy living.</p><h2>Activities</h2><ul><li>5K walk/run events in 20 cities</li><li>Free diabetes risk assessments</li><li>Nutrition education workshops</li><li>Support groups for newly diagnosed patients</li></ul>",
+            "summary": "A community wellness campaign combining fitness challenges with diabetes education and prevention. Participants walk, run, and move to raise funds for diabetes research while learning about healthy li"
+          },
+          "healthArea": [
+            {
+              "id": "diabetes",
+              "name": "diabetes"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "community-wellness",
+              "name": "community-wellness"
+            }
+          ],
+          "goalAmount": "$500,000",
+          "raisedAmount": "$325,000",
+          "deadline": {
+            "timestamp": 1794722340
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Step Up for Diabetes Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

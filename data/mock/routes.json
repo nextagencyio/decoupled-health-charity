@@ -1,0 +1,823 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Heart & Hope Health Foundation",
+          "path": "/homepage",
+          "heroTitle": "Every Heartbeat Matters",
+          "heroSubtitle": "Hope for a Healthier Tomorrow",
+          "heroDescription": {
+            "processed": "<p>We fund life-saving research, support families in crisis, and build healthier communities. Join us in the fight against heart disease, cancer, and chronic illness.</p>",
+            "summary": "We fund life-saving research, support families in crisis, and build healthier communities. Join us in the fight against heart disease, cancer, and chronic illness."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-lives",
+              "title": "",
+              "number": "50,000+",
+              "label": "Lives Impacted"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-research",
+              "title": "",
+              "number": "$12M",
+              "label": "Research Funded"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-volunteers",
+              "title": "",
+              "number": "3,200+",
+              "label": "Active Volunteers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-communities",
+              "title": "",
+              "number": "85",
+              "label": "Communities Served"
+            }
+          ],
+          "featuredCampaignsTitle": "Current Campaigns",
+          "ctaTitle": "Your Generosity Saves Lives",
+          "ctaDescription": {
+            "processed": "<p>Every dollar you give funds critical research and supports families facing health challenges. Make your impact today.</p>",
+            "summary": "Every dollar you give funds critical research and supports families facing health challenges. Make your impact today."
+          },
+          "ctaPrimary": "Donate Now",
+          "ctaSecondary": "Become a Volunteer"
+        }
+      }
+    }
+  },
+  "/campaigns/hearts-for-hope": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-heart",
+          "title": "Hearts for Hope",
+          "path": "/campaigns/hearts-for-hope",
+          "body": {
+            "processed": "<p>Our flagship campaign to fund cutting-edge cardiac research and provide life-saving heart screenings to underserved communities. Every donation brings us closer to a world where no one dies from preventable heart disease.</p><h2>Campaign Goals</h2><ul><li>Fund 10 new cardiac research grants</li><li>Provide 5,000 free heart screenings</li><li>Train 200 community health workers</li><li>Distribute 10,000 AED devices</li></ul>",
+            "summary": "Our flagship campaign to fund cutting-edge cardiac research and provide life-saving heart screenings to underserved communities. Every donation brings us closer to a world where no one dies from preve"
+          },
+          "healthArea": [
+            {
+              "id": "cardiac-health",
+              "name": "cardiac-health"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "fundraising",
+              "name": "fundraising"
+            }
+          ],
+          "goalAmount": "$2,500,000",
+          "raisedAmount": "$1,875,000",
+          "deadline": {
+            "timestamp": 1798783140
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+            "alt": "Hearts for Hope Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/campaigns/childhood-cancer-warriors": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-childhood",
+          "title": "Childhood Cancer Warriors",
+          "path": "/campaigns/childhood-cancer-warriors",
+          "body": {
+            "processed": "<p>Supporting brave young patients and their families through treatment, research, and recovery. This campaign funds pediatric oncology research and provides financial assistance to families facing childhood cancer.</p><h2>How We Help</h2><ul><li>Fund pediatric cancer clinical trials</li><li>Provide family housing near treatment centers</li><li>Support child life specialists</li><li>Cover medication costs for uninsured families</li></ul>",
+            "summary": "Supporting brave young patients and their families through treatment, research, and recovery. This campaign funds pediatric oncology research and provides financial assistance to families facing child"
+          },
+          "healthArea": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "fundraising",
+              "name": "fundraising"
+            }
+          ],
+          "goalAmount": "$1,800,000",
+          "raisedAmount": "$920,000",
+          "deadline": {
+            "timestamp": 1790830740
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+            "alt": "Childhood Cancer Warriors Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/campaigns/mind-matters": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-mental",
+          "title": "Mind Matters Initiative",
+          "path": "/campaigns/mind-matters",
+          "body": {
+            "processed": "<p>Breaking the stigma around mental health and expanding access to care. This awareness campaign works to normalize mental health conversations and connect communities with vital resources.</p><h2>Initiative Components</h2><ul><li>Launch community mental health workshops</li><li>Train 500 mental health first aiders</li><li>Create a 24/7 crisis text line</li><li>Develop school-based wellness programs</li></ul>",
+            "summary": "Breaking the stigma around mental health and expanding access to care. This awareness campaign works to normalize mental health conversations and connect communities with vital resources.Initiative Co"
+          },
+          "healthArea": [
+            {
+              "id": "mental-health",
+              "name": "mental-health"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "awareness",
+              "name": "awareness"
+            }
+          ],
+          "goalAmount": "$750,000",
+          "raisedAmount": "$510,000",
+          "deadline": {
+            "timestamp": 1782881940
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+            "alt": "Mind Matters Initiative",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/campaigns/step-up-for-diabetes": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-diabetes",
+          "title": "Step Up for Diabetes",
+          "path": "/campaigns/step-up-for-diabetes",
+          "body": {
+            "processed": "<p>A community wellness campaign combining fitness challenges with diabetes education and prevention. Participants walk, run, and move to raise funds for diabetes research while learning about healthy living.</p><h2>Activities</h2><ul><li>5K walk/run events in 20 cities</li><li>Free diabetes risk assessments</li><li>Nutrition education workshops</li><li>Support groups for newly diagnosed patients</li></ul>",
+            "summary": "A community wellness campaign combining fitness challenges with diabetes education and prevention. Participants walk, run, and move to raise funds for diabetes research while learning about healthy li"
+          },
+          "healthArea": [
+            {
+              "id": "diabetes",
+              "name": "diabetes"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "community-wellness",
+              "name": "community-wellness"
+            }
+          ],
+          "goalAmount": "$500,000",
+          "raisedAmount": "$325,000",
+          "deadline": {
+            "timestamp": 1794722340
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+            "alt": "Step Up for Diabetes Campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/research/regenerative-cardiac-therapy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResearchProject",
+          "id": "research-cardiac",
+          "title": "Regenerative Cardiac Tissue Therapy",
+          "path": "/research/regenerative-cardiac-therapy",
+          "body": {
+            "processed": "<p>Pioneering research into stem cell-based approaches to regenerate damaged heart tissue after myocardial infarction. This project has the potential to revolutionize treatment for heart attack survivors and reduce long-term heart failure rates.</p><h2>Research Approach</h2><ul><li>Developing novel stem cell delivery mechanisms</li><li>Testing bioengineered cardiac patches</li><li>Conducting Phase II clinical trials</li><li>Analyzing long-term patient outcomes</li></ul>",
+            "summary": "Pioneering research into stem cell-based approaches to regenerate damaged heart tissue after myocardial infarction. This project has the potential to revolutionize treatment for heart attack survivors"
+          },
+          "healthArea": [
+            {
+              "id": "cardiac-health",
+              "name": "cardiac-health"
+            }
+          ],
+          "leadResearcher": "Dr. Elena Rodriguez",
+          "institution": "Stanford Cardiovascular Institute",
+          "fundingAmount": "$2,400,000",
+          "startDate": {
+            "timestamp": 1736920800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+            "alt": "Regenerative Cardiac Tissue Therapy Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/research/pediatric-immunotherapy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResearchProject",
+          "id": "research-immunotherapy",
+          "title": "Next-Generation Pediatric Immunotherapy",
+          "path": "/research/pediatric-immunotherapy",
+          "body": {
+            "processed": "<p>Developing safer, more effective immunotherapy treatments specifically designed for pediatric cancer patients. Current treatments designed for adults often cause severe side effects in children; this research aims to change that.</p><h2>Key Objectives</h2><ul><li>Engineer child-specific CAR-T cell therapies</li><li>Reduce treatment-related side effects by 60%</li><li>Expand clinical trial access for underserved populations</li><li>Develop predictive biomarkers for treatment response</li></ul>",
+            "summary": "Developing safer, more effective immunotherapy treatments specifically designed for pediatric cancer patients. Current treatments designed for adults often cause severe side effects in children; this "
+          },
+          "healthArea": [
+            {
+              "id": "oncology",
+              "name": "oncology"
+            }
+          ],
+          "leadResearcher": "Dr. James Chen",
+          "institution": "Children's National Medical Center",
+          "fundingAmount": "$1,800,000",
+          "startDate": {
+            "timestamp": 1740808800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "Pediatric Immunotherapy Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/research/diabetes-prevention-genomics": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeResearchProject",
+          "id": "research-diabetes-prevention",
+          "title": "Genomic Approaches to Diabetes Prevention",
+          "path": "/research/diabetes-prevention-genomics",
+          "body": {
+            "processed": "<p>Using advanced genomic analysis to identify individuals at high risk for Type 2 diabetes before symptoms appear. This research combines genetic testing with lifestyle interventions to prevent diabetes onset.</p><h2>Research Components</h2><ul><li>Whole-genome sequencing of 10,000 participants</li><li>AI-powered risk prediction models</li><li>Personalized prevention programs based on genetic profiles</li><li>Community-based intervention trials</li></ul>",
+            "summary": "Using advanced genomic analysis to identify individuals at high risk for Type 2 diabetes before symptoms appear. This research combines genetic testing with lifestyle interventions to prevent diabetes"
+          },
+          "healthArea": [
+            {
+              "id": "diabetes",
+              "name": "diabetes"
+            }
+          ],
+          "leadResearcher": "Dr. Amara Okafor",
+          "institution": "Johns Hopkins Bloomberg School of Public Health",
+          "fundingAmount": "$1,500,000",
+          "startDate": {
+            "timestamp": 1748754000
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Genomic Diabetes Prevention Research",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/hope-gala-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Annual Hope Gala 2026",
+          "path": "/events/hope-gala-2026",
+          "body": {
+            "processed": "<p>Join us for an unforgettable evening of inspiration, entertainment, and generosity. The Hope Gala is our premier fundraising event, bringing together community leaders, donors, and health advocates for an elegant dinner and auction.</p><h2>Evening Schedule</h2><ul><li>6:00 PM - Cocktail Reception & Silent Auction</li><li>7:00 PM - Dinner & Program</li><li>8:30 PM - Live Auction</li><li>9:30 PM - Dancing & Dessert</li></ul>",
+            "summary": "Join us for an unforgettable evening of inspiration, entertainment, and generosity. The Hope Gala is our premier fundraising event, bringing together community leaders, donors, and health advocates fo"
+          },
+          "eventDate": {
+            "timestamp": 1792278000
+          },
+          "endDate": {
+            "timestamp": 1792296000
+          },
+          "location": "Grand Ballroom, Riverside Convention Center",
+          "eventType": [
+            {
+              "id": "gala",
+              "name": "gala"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/gala",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Annual Hope Gala 2026",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/heart-walk-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-walkrun",
+          "title": "Heart & Hope 5K Walk/Run",
+          "path": "/events/heart-walk-2026",
+          "body": {
+            "processed": "<p>Lace up your shoes and join thousands of walkers and runners for our annual 5K event. All proceeds support cardiac research and community health programs. Families, teams, and individuals of all fitness levels are welcome.</p><h2>Event Details</h2><ul><li>7:00 AM - Registration & Warm-Up</li><li>8:00 AM - 5K Start</li><li>9:30 AM - Kids Fun Run</li><li>10:00 AM - Awards & Health Fair</li></ul>",
+            "summary": "Lace up your shoes and join thousands of walkers and runners for our annual 5K event. All proceeds support cardiac research and community health programs. Families, teams, and individuals of all fitne"
+          },
+          "eventDate": {
+            "timestamp": 1778932800
+          },
+          "endDate": {
+            "timestamp": 1778950800
+          },
+          "location": "Riverside Park, Main Trail",
+          "eventType": [
+            {
+              "id": "walk-run",
+              "name": "walk-run"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/5k",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80",
+            "alt": "Heart & Hope 5K Walk/Run",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/free-health-screening": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-screening",
+          "title": "Free Community Health Screening",
+          "path": "/events/free-health-screening",
+          "body": {
+            "processed": "<p>Get a comprehensive health check at no cost. Our volunteer medical professionals offer blood pressure checks, cholesterol screenings, diabetes risk assessments, and more. No insurance or appointment needed.</p><h2>Available Screenings</h2><ul><li>Blood pressure & heart rate</li><li>Blood glucose & cholesterol</li><li>BMI & body composition</li><li>Mental health wellness check</li></ul>",
+            "summary": "Get a comprehensive health check at no cost. Our volunteer medical professionals offer blood pressure checks, cholesterol screenings, diabetes risk assessments, and more. No insurance or appointment n"
+          },
+          "eventDate": {
+            "timestamp": 1776002400
+          },
+          "endDate": {
+            "timestamp": 1776024000
+          },
+          "location": "Eastside Community Center, 450 Oak Street",
+          "eventType": [
+            {
+              "id": "community-health",
+              "name": "community-health"
+            }
+          ],
+          "registrationUrl": "https://heartandhope.org/register/screening",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80",
+            "alt": "Free Community Health Screening",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/foundation-receives-nih-grant": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-grant",
+          "title": "Foundation Receives $5M NIH Research Grant",
+          "path": "/news/foundation-receives-nih-grant",
+          "body": {
+            "processed": "<p>Heart & Hope Health Foundation has been awarded a prestigious $5 million grant from the National Institutes of Health to expand our cardiac regeneration research program. This grant will fund three new clinical trials and support 15 research fellowships over the next four years.</p><p>\"This recognition from the NIH validates the groundbreaking work our funded researchers are doing,\" said Foundation CEO Dr. Margaret Torres. \"We are one step closer to making heart disease a thing of the past.\"</p>",
+            "summary": "Heart & Hope Health Foundation has been awarded a prestigious $5 million grant from the National Institutes of Health to expand our cardiac regeneration research program. This grant will fund three ne"
+          },
+          "category": [
+            {
+              "id": "research",
+              "name": "research"
+            },
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Foundation Receives $5M NIH Research Grant",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/annual-impact-report-2025": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-impact",
+          "title": "2025 Impact Report: A Record Year of Giving",
+          "path": "/news/annual-impact-report-2025",
+          "body": {
+            "processed": "<p>Our 2025 Annual Impact Report reveals a record-breaking year: over $12 million raised, 50,000 lives impacted, and 15 new research projects funded. Thanks to the generosity of our donors and the dedication of our 3,200 volunteers, we made significant strides in the fight against heart disease, cancer, and diabetes.</p><p>Key highlights include a 30% increase in community health screenings and the launch of our mobile health clinic serving rural communities.</p>",
+            "summary": "Our 2025 Annual Impact Report reveals a record-breaking year: over $12 million raised, 50,000 lives impacted, and 15 new research projects funded. Thanks to the generosity of our donors and the dedica"
+          },
+          "category": [
+            {
+              "id": "impact-stories",
+              "name": "impact-stories"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "2025 Annual Impact Report",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/volunteer-spotlight-maria-gonzalez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-volunteer",
+          "title": "Volunteer Spotlight: Maria Gonzalez's 10 Years of Service",
+          "path": "/news/volunteer-spotlight-maria-gonzalez",
+          "body": {
+            "processed": "<p>This month we celebrate Maria Gonzalez, who has volunteered with Heart & Hope for a decade. As a cardiac arrest survivor herself, Maria has dedicated her life to helping others navigate their health journeys. She has organized over 200 community health events and trained 50 volunteer health educators.</p><p>\"When I survived my heart attack, I made a promise to give back,\" Maria says. \"Every person I help reminds me why this work matters.\"</p>",
+            "summary": "This month we celebrate Maria Gonzalez, who has volunteered with Heart & Hope for a decade. As a cardiac arrest survivor herself, Maria has dedicated her life to helping others navigate their health j"
+          },
+          "category": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Volunteer Spotlight: Maria Gonzalez",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Heart & Hope Health Foundation",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 2005, Heart & Hope Health Foundation is a 501(c)(3) nonprofit organization dedicated to fighting heart disease, cancer, and chronic illness through research, education, and community health programs. Our mission is to save lives and build healthier communities.</p><h2>Our Mission</h2><p>To fund life-saving medical research, provide health education, and support individuals and families affected by serious illness.</p><h2>Our Values</h2><ul><li><strong>Compassion</strong> - We lead with empathy and care for every person we serve.</li><li><strong>Impact</strong> - We measure success by the lives we improve and save.</li><li><strong>Transparency</strong> - We are accountable stewards of every dollar donated.</li><li><strong>Collaboration</strong> - We partner with researchers, hospitals, and communities for maximum impact.</li></ul><h2>Accreditation</h2><p>Heart & Hope Health Foundation holds a GuideStar Platinum Seal of Transparency and a Charity Navigator 4-star rating.</p>",
+            "summary": "Founded in 2005, Heart & Hope Health Foundation is a 501(c)(3) nonprofit organization dedicated to fighting heart disease, cancer, and chronic illness through research, education, and community health"
+          }
+        }
+      }
+    }
+  },
+  "/volunteer": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-volunteer",
+          "title": "Volunteer With Us",
+          "path": "/volunteer",
+          "body": {
+            "processed": "<h2>Make a Difference in Your Community</h2><p>Our volunteers are the heart of everything we do. Whether you have a few hours a month or want to make a regular commitment, there are many ways to get involved and make a lasting impact on the health of your community.</p><h2>Volunteer Opportunities</h2><ul><li><strong>Health Screenings</strong> - Help organize and run free community health events</li><li><strong>Fundraising Events</strong> - Support our galas, walks, and community fundraisers</li><li><strong>Patient Support</strong> - Provide comfort and companionship to patients and families</li><li><strong>Administrative Support</strong> - Help with office tasks, data entry, and communications</li></ul><h2>How to Apply</h2><p>Fill out our volunteer application form and a member of our team will contact you within 48 hours to discuss placement options. All volunteers receive comprehensive training and ongoing support.</p>",
+            "summary": "Make a Difference in Your CommunityOur volunteers are the heart of everything we do. Whether you have a few hours a month or want to make a regular commitment, there are many ways to get involved and "
+          }
+        }
+      }
+    }
+  }
+}
