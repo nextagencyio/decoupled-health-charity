@@ -9,6 +9,7 @@ export default function Header() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [bannerHeight, setBannerHeight] = useState(0)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     const banner = document.querySelector('[data-demo-banner]')
@@ -20,6 +21,12 @@ export default function Header() {
       window.addEventListener('resize', update)
       return () => { observer.disconnect(); window.removeEventListener('resize', update) }
     }
+  }, [])
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 10)
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const navItems = [
@@ -34,32 +41,42 @@ export default function Header() {
 
   return (
     <header
-      className="fixed w-full z-50 bg-white/80 backdrop-blur-sm"
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled ? 'bg-white shadow-sm' : 'bg-white/80 backdrop-blur-sm'
+      }`}
       style={{ top: bannerHeight }}
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-lg font-heading font-bold tracking-tight text-gray-900 hover:text-primary-600 transition-colors">
+          <Link href="/" className="text-lg font-heading font-bold tracking-tight text-primary-900 hover:text-primary-600 transition-colors">
             Wellspring
           </Link>
 
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm transition-colors duration-200 ${
-                  isActive(item.href) ? 'text-primary-600' : 'text-gray-400 hover:text-gray-900'
+                className={`text-sm font-medium transition-colors duration-200 ${
+                  isActive(item.href)
+                    ? 'text-primary-600'
+                    : 'text-gray-700 hover:text-primary-600'
                 }`}
               >
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/contact"
+              className="ml-2 px-5 py-2 bg-accent-500 text-white text-sm font-semibold rounded-full hover:bg-accent-600 transition-colors duration-200 shadow-sm"
+            >
+              Donate
+            </Link>
           </nav>
 
           <button
             type="button"
-            className="md:hidden p-2 text-gray-400 hover:text-gray-900"
+            className="md:hidden p-2 text-gray-700 hover:text-primary-600"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <span className="sr-only">Menu</span>
@@ -68,19 +85,28 @@ export default function Header() {
         </div>
 
         {mobileMenuOpen && (
-          <nav className="md:hidden border-t border-gray-100 py-4">
+          <nav className="md:hidden border-t border-gray-100 py-4 space-y-1">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`block py-2 text-sm ${
-                  isActive(item.href) ? 'text-primary-600' : 'text-gray-400 hover:text-gray-900'
+                className={`block py-2.5 px-3 text-sm font-medium rounded-lg ${
+                  isActive(item.href)
+                    ? 'text-primary-600 bg-primary-50'
+                    : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
                 }`}
               >
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/contact"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block mt-3 mx-3 px-5 py-2.5 bg-accent-500 text-white text-sm font-semibold rounded-full text-center hover:bg-accent-600 transition-colors"
+            >
+              Donate
+            </Link>
           </nav>
         )}
       </div>

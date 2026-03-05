@@ -19,15 +19,18 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
   if (!stats || stats.length === 0) return null
 
   return (
-    <section className="bg-white py-16">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-200 pt-16">
-        <div className="flex flex-wrap items-baseline gap-2">
+    <section className="bg-primary-900 py-16 md:py-20">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           {stats.map((stat: any, i: number) => (
-            <span key={stat.id || i} className="flex items-baseline gap-2">
-              {i > 0 && <span className="text-gray-200">/</span>}
-              <span className="font-heading text-2xl md:text-3xl font-bold text-gray-950">{stat.value || stat.statValue}</span>
-              <span className="text-sm text-gray-400">{stat.label || stat.statLabel || stat.title}</span>
-            </span>
+            <div key={stat.id || i} className="text-center">
+              <div className="font-heading text-4xl md:text-5xl font-bold text-white mb-2">
+                {stat.value || stat.statValue}
+              </div>
+              <div className="text-sm text-primary-200 font-medium tracking-wide uppercase">
+                {stat.label || stat.statLabel || stat.title}
+              </div>
+            </div>
           ))}
         </div>
       </div>
