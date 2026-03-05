@@ -12,9 +12,9 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-    const banner = document.querySelector('[data-demo-banner]')
+    const banner = document.querySelector('[class*="bg-amber-500"]') as HTMLElement | null
     if (banner) {
-      const update = () => setBannerHeight((banner as HTMLElement).offsetHeight)
+      const update = () => setBannerHeight(banner.offsetHeight)
       update()
       const observer = new MutationObserver(update)
       observer.observe(banner, { attributes: true, childList: true, subtree: true })
