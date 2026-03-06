@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-lives",
               "title": "",
-              "number": "50,000+",
+              "number": "50,000+", "value": "50,000+",
               "label": "Lives Impacted"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-research",
               "title": "",
-              "number": "$12M",
+              "number": "$12M", "value": "$12M",
               "label": "Research Funded"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-volunteers",
               "title": "",
-              "number": "3,200+",
+              "number": "3,200+", "value": "3,200+",
               "label": "Active Volunteers"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-communities",
               "title": "",
-              "number": "85",
+              "number": "85", "value": "85",
               "label": "Communities Served"
             }
           ],
