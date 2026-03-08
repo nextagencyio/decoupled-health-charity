@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import NewsCard from '../components/NewsCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'News | Wellspring Health Foundation',

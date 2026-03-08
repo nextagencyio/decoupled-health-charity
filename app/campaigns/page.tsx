@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import CampaignCard from '../components/CampaignCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Campaigns | Wellspring Health Foundation',

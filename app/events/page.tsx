@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import EventCard from '../components/EventCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Events | Wellspring Health Foundation',

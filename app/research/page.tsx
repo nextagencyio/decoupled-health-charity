@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import ResearchProjectCard from '../components/ResearchProjectCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Research | Wellspring Health Foundation',
