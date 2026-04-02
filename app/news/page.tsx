@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getNews() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_NEWS, { first: 50 })
+    const data = await client.raw(GET_NEWS, { first: 50 })
     return data?.nodeNewsItems?.nodes || []
   } catch (error) {
     console.error('Error fetching news:', error)
@@ -50,7 +50,7 @@ export default async function NewsPage() {
             </div>
           ) : (
             <div className="border-t border-gray-200">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <NewsCard key={item.id} item={item} />
               ))}
             </div>

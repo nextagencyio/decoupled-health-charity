@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getResearchProjects() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_RESEARCH_PROJECTS, { first: 50 })
+    const data = await client.raw(GET_RESEARCH_PROJECTS, { first: 50 })
     return data?.nodeResearchProjects?.nodes || []
   } catch (error) {
     console.error('Error fetching research projects:', error)
@@ -50,7 +50,7 @@ export default async function ResearchProjectsPage() {
             </div>
           ) : (
             <div className="border-t border-gray-200">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <ResearchProjectCard key={item.id} item={item} />
               ))}
             </div>

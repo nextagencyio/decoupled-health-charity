@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getCampaigns() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_CAMPAIGNS, { first: 50 })
+    const data = await client.raw(GET_CAMPAIGNS, { first: 50 })
     return data?.nodeCampaigns?.nodes || []
   } catch (error) {
     console.error('Error fetching campaigns:', error)
@@ -50,7 +50,7 @@ export default async function CampaignsPage() {
             </div>
           ) : (
             <div className="border-t border-gray-200">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <CampaignCard key={item.id} item={item} />
               ))}
             </div>
