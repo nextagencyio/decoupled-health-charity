@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_RESEARCH_PROJECTS } from '@/lib/queries'
 import { ResearchProjectsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getResearchProjects() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<ResearchProjectsData>({
-      query: GET_RESEARCH_PROJECTS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_RESEARCH_PROJECTS, { first: 50 })
     return data?.nodeResearchProjects?.nodes || []
   } catch (error) {
     console.error('Error fetching research projects:', error)

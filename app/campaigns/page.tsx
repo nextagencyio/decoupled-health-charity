@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_CAMPAIGNS } from '@/lib/queries'
 import { CampaignsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getCampaigns() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<CampaignsData>({
-      query: GET_CAMPAIGNS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_CAMPAIGNS, { first: 50 })
     return data?.nodeCampaigns?.nodes || []
   } catch (error) {
     console.error('Error fetching campaigns:', error)
